@@ -1,0 +1,9 @@
+h1 {
+    text-align:      center;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color:           blue;
+    font-size:       30px;
+}

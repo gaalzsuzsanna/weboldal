@@ -1,0 +1,64 @@
+
+
+
+.name { 
+    
+    color:           red;
+    text-align:      center;
+    text-decoration: underline;
+    font-family:     'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:       60px;
+ }
+
+ p {
+     text-align: center;
+
+
+}
+
+ h3 {
+     text-align:  center;
+     font-weight: bold;
+     font-size:   25px;
+     margin:      20px;
+ }
+
+ h4 {
+     text-align: center;
+ }
+ div {
+     margin:  20px;
+     padding: 20px;
+ }
+ .mobile-picture {
+     margin-top: 20px;
+     height:     250px;
+     width:      220px;;
+ }
+
+    
+@keyframes mobile-picture {
+    0%   {width: 220px; height: 250px;}
+    50%  {width: 250px; height: 300px;}
+    100% {width: 220px; height: 250px;}
+}
+.mobile-picture {
+    transition: all 5s ease-in 2s;
+    animation:  5s ease-in 2s infinite alternate both;
+}
+.open {
+    margin-left: 140px;
+}
+.address {
+    margin-left: 140px;
+}
+
+a {
+    text-align: center;
+    color:      blue;
+    font-size:  30px;
+}
+a:hover {
+    color:           red;
+    text-decoration: underline;
+}
